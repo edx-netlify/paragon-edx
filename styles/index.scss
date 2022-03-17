@@ -1,0 +1,6 @@
+@import "@edx/brand/paragon/fonts.scss";
+@import "@edx/brand/paragon/variables.scss";
+// Import the Paragon core after setting brand-themed variables.
+@import "@edx/paragon/scss/core/core.scss";
+// Import brand overrides after the Paragon core.
+@import "@edx/brand/paragon/overrides.scss";
